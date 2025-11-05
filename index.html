@@ -3,21 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>Practico 2</title>
 </head>
 <body>
     <header>
-
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                 </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/locations.html">Locations</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        </nav>
     </header>
     <main>
-
+        <h1>Transform Your Vision Into Reality</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <div class="contenedor-boton">
+            <div class="boton">
+                Get Started
+            </div>
+            <div class="boton-dos">
+                Learn More
+            </div>
+        </div>
     </main>
     <section>
-
+        <div>
+            <h2>About</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+            </div>
+            <div class="card-section area-dos">
+                <img src="img/trofeo.png" alt="">
+                <h2>8</h2>
+                <p>Years of excellence</p>
+            </div>
+            <div class="card-section area-tres">
+                <img src="img/trofeo.png" alt="">
+                <h2>150</h2>
+                <p>Projects completed</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section-dos">
+        <h3>Contact Us</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ex aliquid vitae facilis eligendi porro culpa? Quia sit culpa, eos sint non a ipsam animi ipsum aspernatur laudantium necessitatibus numquam!</p>
+        <img src="img/pexels-ana-quirosa-555677148-19060767.jpg" alt="">
     </section>
     <footer>
-
+        <p>© 2024 Your Company. All rights reserved.</p>
     </footer>
 </body>
 </html>
