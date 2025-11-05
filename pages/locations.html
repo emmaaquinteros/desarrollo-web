@@ -3,10 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Locations — Practico 2</title>
 </head>
 <body>
-    
+    <!-- header: navegación principal -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="locations.html">Locations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main: puntos de encuentro -->
+    <main>
+        <h1> Meeting points & locations</h1>
+        <p>Find the official meeting points below. Choose the nearest location and follow the link to view it on Google Maps.</p>
+
+    <!-- lugares: tarjetas con direcciones y enlace a maps -->
+    <section class="section-lugares">
+            <div class="ubicacion">
+                <div class="tarjeta">
+                    <h2>Downtown — Central Plaza</h2>
+                    <div class="direccion">
+                        Calle Principal 123<br>
+                        Ciudad, Provincia
+                    </div>
+                    <p>Hours: Mon–Fri 09:00–18:00</p>
+                    <p>Contact: +54 9 11 1234 5678</p>
+                    <p><a href="https://www.google.com/maps" target="_blank">View on Maps</a></p>
+                </div>
+            </div>
+
+            <div class="ubicacion">
+                <div class="tarjeta">
+                    <h2>North Station</h2>
+                    <div class="direccion">
+                        Av. del Ferrocarril 45<br>
+                        Ciudad, Provincia
+                    </div>
+                    <p>Hours: Sat–Sun 10:00–16:00</p>
+                    <p>Contact: +54 9 11 8765 4321</p>
+                    <p><a href="https://www.google.com/maps" target="_blank">View on Maps</a></p>
+                </div>
+            </div>
+
+            <div class="ubicacion">
+                <div class="tarjeta">
+                    <h2>South Park</h2>
+                    <div class="direccion">
+                        Paseo del Lago 7
+                    </div>
+                    <p>Hours: Mon–Sun 08:00–20:00</p>
+                    <p>Contact: reservations@example.com</p>
+                    <p><a href="https://www.google.com/maps" target="_blank">View on Maps</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- info: cómo llegar -->
+        <section>
+            <h3>How to get there</h3>
+            <p>You can use public transport or drive. We recommend checking traffic conditions before you leave.</p>
+        </section>
+    </main>
+
+    <!-- footer: derechos -->
+    <footer class="contenedor-derechos">
+        <p>© 2024 Your Company. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
